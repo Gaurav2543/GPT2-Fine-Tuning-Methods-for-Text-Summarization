@@ -1,5 +1,3 @@
-Here's a comprehensive README.md for your GitHub repository:
-
 # GPT-2 Fine-tuning Methods for Text Summarization: A Comparative Study
 
 ## Overview
