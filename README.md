@@ -8,7 +8,7 @@ This repository contains the implementation of three different fine-tuning metho
 
 ## OneDrive link for Models:
 
-[Mode](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E)
+[Models](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E)
 
 ## Prerequisites
 
