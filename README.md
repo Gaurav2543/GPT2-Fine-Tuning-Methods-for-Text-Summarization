@@ -8,7 +8,7 @@ This repository contains the implementation of three different fine-tuning metho
 
 ## OneDrive link for Models:
 
-https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E
+Model[https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E]
 
 ## Prerequisites
 
@@ -42,19 +42,19 @@ Each implementation can be run independently:
 ### 1. Prompt Tuning
 
 ```bash
-python pt.py
+python src/pt.py
 ```
 
 ### 2. LoRA
 
 ```bash
-python lora.py
+python src/lora.py
 ```
 
 ### 3. Traditional Fine-tuning
 
 ```bash
-python ft.py
+python src/ft.py
 ```
 
 ## Model Checkpoints
