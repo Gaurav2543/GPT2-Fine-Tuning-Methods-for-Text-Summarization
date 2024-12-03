@@ -10,20 +10,18 @@ This repository contains the implementation of three different fine-tuning metho
 
 ## File Structure
 
-``` 
-├── src/
-│   ├── pt.py        # Prompt Tuning implementation
-│   ├── lora.py      # LoRA implementation
-│   └── ft.py        # Traditional Fine-tuning implementation
-├── training_metrics/ # Training results and visualizations
-├── requirements.txt
-└── README.md
 ```
-
-## Installation
-```bash
-git clone https://github.com/yourusername/gpt2-fine-tuning-methods.git
-cd gpt2-fine-tuning-methods
+├── README.md
+├── Report.pdf
+├── ANLP_Assignment_3.pdf  # Description of the Task
+├── src/
+│   ├── pt.py              # Prompt Tuning implementation
+│   ├── lora.py            # LoRA implementation
+│   └── ft.py              # Traditional Fine-tuning implementation
+└── training_metrics       # Training results and visualizations
+    ├── prompt-tuning /             
+    ├── lora/            
+    └── fine-tuning/ 
 ```
 
 ## Dependencies
