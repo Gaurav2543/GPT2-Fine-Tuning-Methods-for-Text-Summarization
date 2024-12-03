@@ -1,16 +1,32 @@
 # Fine-tuning Methods Comparison
 
+## Overview
+
 This repository contains the implementation of three different fine-tuning methods for the GPT-2 small model on the summarization task:
 
 1. Prompt Tuning (pt.py)
 2. LoRA - Low-Rank Adaptation (lora.py)
 3. Traditional Fine-Tuning (Last Layers Only) (ft.py)
 
-## OneDrive link for Models:
+## File Structure
 
-Due to file size limitations, the models are available at the following link: [Models](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E)
+``` 
+├── src/
+│   ├── pt.py        # Prompt Tuning implementation
+│   ├── lora.py      # LoRA implementation
+│   └── ft.py        # Traditional Fine-tuning implementation
+├── training_metrics/ # Training results and visualizations
+├── requirements.txt
+└── README.md
+```
 
-## Prerequisites
+## Installation
+```bash
+git clone https://github.com/yourusername/gpt2-fine-tuning-methods.git
+cd gpt2-fine-tuning-methods
+```
+
+## Dependencies
 
 ```bash
 pip install torch transformers datasets rouge-score pandas numpy seaborn matplotlib tqdm psutil gputil
@@ -35,6 +51,16 @@ path/to/gowrishankarp/newspaper-text-summarization-cnn-dailymail/
 path = 'path/to/gowrishankarp/newspaper-text-summarization-cnn-dailymail'
 ```
 
+## Model Checkpoints
+
+The best model checkpoints for each method are automatically saved during training:
+
+- `best_prompt_tuning_model.pt`
+- `best_lora_model.pt`
+- `best_traditional_finetuning_model.pt`
+  
+Due to file size limitations, the models are available at the following link: [Models](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/gaurav_bhole_research_iiit_ac_in/Eg01MitWZihCvncBK5-kCooBNj8iaWBog4AGnmjPxjVwqw?e=gsvL9E)
+
 ## Running the Code
 
 Each implementation can be run independently:
@@ -56,14 +82,6 @@ python src/lora.py
 ```bash
 python src/ft.py
 ```
-
-## Model Checkpoints
-
-The best model checkpoints for each method are automatically saved during training:
-
-- `best_prompt_tuning_model.pt`
-- `best_lora_model.pt`
-- `best_traditional_finetuning_model.pt`
 
 ## Restoring Pre-trained Models
 
