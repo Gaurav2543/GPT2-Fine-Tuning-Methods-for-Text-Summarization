@@ -11,7 +11,7 @@ This repository contains the implementation of three different fine-tuning metho
 ## File Structure
 
 ```
-GPT2-Fine-Tuning-Methods-for-Text-Summarization
+GPT2-Fine-Tuning-Methods-for-Text-Summarization/
 │
 ├── README.md
 ├── Report.pdf
