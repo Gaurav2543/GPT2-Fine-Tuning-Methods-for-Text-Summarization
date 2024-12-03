@@ -1,4 +1,4 @@
-# Assignment 3: Fine-tuning Methods Comparison
+# Fine-tuning Methods Comparison
 
 This repository contains the implementation of three different fine-tuning methods for the GPT-2 small model on the summarization task:
 
