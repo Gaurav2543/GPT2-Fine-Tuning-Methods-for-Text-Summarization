@@ -11,13 +11,17 @@ This repository contains the implementation of three different fine-tuning metho
 ## File Structure
 
 ```
+GPT2-Fine-Tuning-Methods-for-Text-Summarization
+│
 ├── README.md
 ├── Report.pdf
 ├── ANLP_Assignment_3.pdf  # Description of the Task
+│
 ├── src/
 │   ├── pt.py              # Prompt Tuning implementation
 │   ├── lora.py            # LoRA implementation
 │   └── ft.py              # Traditional Fine-tuning implementation
+│
 └── training_metrics       # Training results and visualizations
     ├── prompt-tuning /             
     ├── lora/            
