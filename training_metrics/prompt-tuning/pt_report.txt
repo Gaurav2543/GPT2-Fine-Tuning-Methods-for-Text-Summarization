@@ -1,0 +1,18 @@
+Training Report for PromptTuning
+        
+Time: 20241024_210322
+
+Model Information:
+- Total Parameters: 124,455,168
+- Trainable Parameters: 124,455,168
+- Added Parameters: 124,455,168
+
+Best Scores:
+- Best Validation Loss: 0.9863
+- Best ROUGE-1: 0.0556
+- Best ROUGE-2: 0.0306
+- Best ROUGE-L: 0.0492
+
+Resource Usage:
+- Average GPU Usage: 89.43%
+- Average CPU Usage: 7.52%

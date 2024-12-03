@@ -1,0 +1,15 @@
+Training Report for TraditionalFineTuning
+        
+Time: 20241024_213618
+
+Model Information:
+- Total Parameters: 124,439,808
+- Trainable Parameters: 124,439,808
+- Added Parameters: 0
+
+Best Scores:
+- Best Validation Loss: 0.9998
+
+Resource Usage:
+- Average GPU Usage: 94.24%
+- Average CPU Usage: 7.74%

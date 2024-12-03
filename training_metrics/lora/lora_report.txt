@@ -1,0 +1,18 @@
+Training Report for LoRA
+        
+Time: 20241024_213619
+
+Model Information:
+- Total Parameters: 124,439,808
+- Trainable Parameters: 124,439,808
+- Added Parameters: 124,439,808
+
+Best Scores:
+- Best Validation Loss: 1.0006
+- Best ROUGE-1: 0.0556
+- Best ROUGE-2: 0.0306
+- Best ROUGE-L: 0.0492
+
+Resource Usage:
+- Average GPU Usage: 94.24%
+- Average CPU Usage: 7.62%
